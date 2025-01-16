@@ -46,5 +46,5 @@
             </div>
         </div>
         <x-shared.footer />
-
     </div>
+</div>
