@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <div class="mt-10 text-base-200 flex justify-between text-sm">
+    <div class="mt-10 text-base-100 flex justify-between text-sm">
         <div class="space-x-1">
             <div class="inline-flex gap-1 items-center">
                 <x-heroicon-o-heart class="h-5 w-5" /> 2

@@ -1,8 +1,8 @@
 <div>
-    <div class="navbar bg-transparent z-30 px-10">
+    <div class="navbar bg-transparent z-30 lg:px-10">
         <div class="navbar-start">
             <a href="#"
-                class="text-xl text-primary font-bold hover:text-blue-900 duration-200 transition-all delay-100 ease-in-out">
+                class="text-xl text-primary hover:text-base-200 font-bold duration-500 transition-all delay-100 ease-in-out">
                 NEPAL
             </a>
         </div>

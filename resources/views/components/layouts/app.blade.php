@@ -19,6 +19,9 @@
         <x-shared.nav />
     </div>
     {{ $slot }}
+    <div class="absolute w-full">
+        <x-shared.footer />
+    </div>
 </body>
 
 </html>
