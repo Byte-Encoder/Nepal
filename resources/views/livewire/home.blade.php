@@ -7,7 +7,7 @@
         style="background-image: url('https://pinkary.com/img/dots.svg')">
         <div class="flex w-full justify-center items-center">
             <div class="w-1/2">
-                <div class="sticky z-10 top-0 bg-base-100 py-5">
+                <div class="feed-nav sticky z-10 top-0 bg-base-100 py-5">
                     <div class="sticky top-5 flex gap-5 my-5 justify-center items-center">
                         <button class="btn btn-primary text-white font-normal">
                             <x-heroicon-o-home class="h-5 w-5" /> Feed
@@ -23,20 +23,28 @@
                         </button>
                     </div>
                 </div>
-                <div class="mx-10 space-y-10 mb-10">
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
-                    <x-partials.cards />
+                <div class="feed-contents mx-10 space-y-20 mb-10">
+                    <div class="space-y-5">
+                        <x-partials.cards />
+                        <x-partials.comments />
+                    </div>
+                    <div class="space-y-5">
+                        <x-partials.cards />
+                        <x-partials.comments />
+                    </div>
+                    <div class="space-y-5">
+                        <x-partials.cards />
+                        <x-partials.comments />
+                    </div>
+                    <div class="space-y-5">
+                        <x-partials.cards />
+                        <x-partials.comments />
+                        <x-partials.comments />
+                        <x-partials.comments />
+                    </div>
                 </div>
             </div>
         </div>
+        <x-shared.footer />
 
     </div>
