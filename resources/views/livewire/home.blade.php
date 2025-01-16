@@ -1,4 +1,4 @@
-<div class="">
+<div>
     <div class="fixed top-10 left-0 w-full">
         <x-partials.hero />
     </div>
