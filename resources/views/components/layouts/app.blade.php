@@ -15,7 +15,7 @@
 </head>
 
 <body class="bg-white font-['Poppins']">
-    <div class="sticky top-0">
+    <div class="sticky top-0 z-30">
         <x-shared.nav />
     </div>
     {{ $slot }}

@@ -1,62 +1,39 @@
 <div>
-    <div class="navbar bg-white  ">
+    <div class="navbar bg-transparent z-30 px-10">
         <div class="navbar-start">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h8m-8 6h16" />
-                    </svg>
-                </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>Item 1</a></li>
-                    <li>
-                        <a>Parent</a>
-                    </li>
-                    <li><a>Item 3</a></li>
-                </ul>
-            </div>
             <a href="#"
                 class="text-xl text-primary font-bold hover:text-blue-900 duration-200 transition-all delay-100 ease-in-out">
                 NEPAL
             </a>
         </div>
-        <div class="navbar-center hidden lg:flex text-base-200">
-            <ul class="inline-flex gap-10">
-                <li>
-                    <a href="#" class="hover:text-primary duration-200 transition-all delay-100 ease-in-out">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="hover:text-primary duration-200 transition-all delay-100 ease-in-out">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="hover:text-primary duration-200 transition-all delay-100 ease-in-out">
-                        Complaints
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="hover:text-primary duration-200 transition-all delay-100 ease-in-out">
-                        Solutions
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="hover:text-primary duration-200 transition-all delay-100 ease-in-out">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </div>
         <div class="navbar-end">
-            <a class="btn text-white bg-primary hover:bg-blue-900 border border-white">
+            <div class="dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn btn-sm btn-ghost">
+                    <x-heroicon-c-bars-3-bottom-right class="h-6 w-6 text-primary" />
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm space-y- dropdown-content bg-base-100 text-primary rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li>
+                        <a class="">FEED</a>
+                    </li>
+                    <li>
+                        <a class="">About NEPAL</a>
+                    </li>
+                    <li>
+                        <a class="">Contact NEPAL</a>
+                    </li>
+                    <li>
+                        <a class="">LOGIN</a>
+                    </li>
+                    <li>
+                        <a class="">REGISTER</a>
+                    </li>
+                </ul>
+            </div>
+            {{-- <a class="btn hidden lg:block text-white bg-primary hover:bg-blue-900 border border-white">
                 <x-bi-incognito class="h-5 w-5" />
                 Shhh... Go Anonymous
-            </a>
+            </a> --}}
         </div>
     </div>
 </div>
