@@ -6,7 +6,11 @@ export default {
         "./resources/**/*.vue",
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                nepal: "url('/img/nepal.png')",
+            },
+        },
     },
     plugins: [require("daisyui")],
     daisyui: {
@@ -15,7 +19,8 @@ export default {
                 mytheme: {
                     // primary: "#011F5B",
                     // primary: "#4c00b0",
-                    primary: "#7600bc",
+                    // primary: "#7600bc",
+                    primary: "#DC143C",
                     secondary: "#FFFFFF",
                     accent: "#e5ab3a",
                     neutral: "#3d4451",
