@@ -1,5 +1,5 @@
     <div
-        class="flex items-center justify-between text-base-300 space-y-5 lg:space-y-0 md:space-y-0 border-t border-base-300 bg-base-200 p-4 lg:px-10">
+        class="flex items-center justify-between text-base-300 space-y-5 lg:space-y-0 md:space-y-0 bg-base-100 border-t border-base-200 p-4 lg:px-10">
         <div class="text-xs ">
             <p>Copyright © 2025 | Developed by <a href="https://bytencoder.com.np"
                     class="hover:text-primary duration-500 transition-all delay-100 ease-in-out underline underline-offset-4">Bytencoder</a>

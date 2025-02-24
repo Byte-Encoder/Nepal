@@ -1,14 +1,29 @@
-    <div class="h-screen flex justify-center items-center">
-        <div class="w-[700px] text-center space-y-10">
-            <h2 class="text-4xl leading-normal tracking-wide text-black rounded-xl p-5">
-                lets join networks to rebuild a Greater <span class="text-8xl text-primary font-semibold">NEPAL</span>
-            </h2>
-            <div class="inline-flex gap-5">
-                <button class="btn btn-primary text-white">Strike a complaint</button>
-                {{-- <button class="btn btn-primary btn-outline text-white">View Recent Cases</button> --}}
+<div class="hero h-screen relative">
+    <div class="hero-content absolute flex justify-items-center px-10 items-center gap-20">
+        <div class="h-[500px] w-[300px] rounded-xl overflow-hidden ">
+            <div class="absolute -top-1 left-52">
+                <img src="{{ asset('img/symbol.png') }}" alt="" class="w-20">
             </div>
-            <p class="flex justify-center pt-10">
-                <x-eva-arrow-down-outline class="h-10 w-10 text-primary animate-bounce " />
-            </p>
+            <img src="https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg" alt=""
+                class="h-full w-full object-cover">
+        </div>
+        <div class="space-y-10 text-center lg:text-left">
+            <div class="space-y-5">
+                <h1 class="text-6xl font-semibold text-primary leading-normal">Together for a Cleaner, Brighter
+                    Nepal</h1>
+                <p class="tracking-wide leading-normal">
+                    We tackle Nepal's challenges by empowering citizens, promoting accountability, and inspiring change.
+                </p>
+            </div>
+            <div class="space-x-5">
+                <button class="btn btn-primary">
+                    <x-heroicon-o-fire class="h-5 w-5 " />View Recent Cases
+                </button>
+                <button class="btn btn-primary btn-outline">
+                    <x-heroicon-o-document-plus class="h-5 w-5" />
+                    Post an Issue
+                </button>
+            </div>
         </div>
     </div>
+</div>

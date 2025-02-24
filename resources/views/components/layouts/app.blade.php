@@ -18,7 +18,9 @@
     <div class="sticky top-0 z-30">
         <x-shared.nav />
     </div>
-    {{ $slot }}
+    <div class="min-h-screen">
+        {{ $slot }}
+    </div>
     <div class="absolute w-full">
         <x-shared.footer />
     </div>
